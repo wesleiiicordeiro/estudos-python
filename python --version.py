@@ -1,8 +1,15 @@
-idade = int(input("Digite sua idade: "))
+# Coletando os dados
+dia = int(input('Informe o dia: '))
+mes = int(input('Informe o mes: '))
+ano = int(input('Informe o ano: '))
 
-if idade <= 25:
-    print("Faixa 1")
-elif idade <= 50:
-    print("Faixa 2")
+# Verificando as condições
+if (dia >= 1 and dia <= 31) and (mes >= 1 and mes <= 12) and (ano > 0):
+    print('Data válida')
 else:
-    print("Faixa 3") -v
+    print('Data inválida')
+
+# Resultado
+print(f'Dia: {dia}')
+print(f'Mês: {mes}')
+print(f'Ano: {ano}')
