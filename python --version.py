@@ -5,4 +5,4 @@ if idade <= 25:
 elif idade <= 50:
     print("Faixa 2")
 else:
-    print("Faixa 3")
+    print("Faixa 3") -v
